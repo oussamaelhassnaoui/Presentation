@@ -67,8 +67,8 @@ typedef struct {      // struct for the std::map below
 // right now we have 4 devicesIds going to 4 relays and 4 flip switches to switch the relay manually
 std::map<String, deviceConfig_t> devices = {
     //{deviceId, {relayPIN,  flipSwitchPIN, activeLow}}
-    {"6291fa8bff3682115432f975", {  14, 5, true }},
-    {"629a7ec7c67e23532c928787", {  13, 0, true }},
+    {"your deviceId", {  14, 5, true }},
+    {"your deviceId", {  13, 0, true }},
        
 };
 
